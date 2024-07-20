@@ -1070,7 +1070,7 @@ input[type='checkbox']:focus-visible
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero {
-      background-image: linear-gradient(var(--grey), var(--grey),
+      background-image: linear-gradient(var(--grey), var(--grey)),
         url(../images/people-office-2x.jpg);
     }
   }
