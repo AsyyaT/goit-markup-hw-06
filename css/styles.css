@@ -82,7 +82,7 @@ img {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .common-title {
@@ -415,6 +415,8 @@ img {
 
 .values-headers {
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .values-wrapper {
@@ -1040,6 +1042,10 @@ input[type='checkbox']:focus-visible
     margin: 0 auto;
   }
 
+  .section {
+    padding: 120px 0;
+  }
+
   .header-logo {
     margin-right: 76px;
   }
@@ -1082,6 +1088,10 @@ input[type='checkbox']:focus-visible
   .values-section {
     flex-direction: row;
     gap: 24px;
+  }
+  .values-headers {
+    font-weight: 500;
+    font-size: 20px;
   }
 
   .values-wrapper {
